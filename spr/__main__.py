@@ -48,16 +48,16 @@ async def help_command(_, message: Message):
         return await message.reply("Pm Me For Help", reply_markup=kb)
     kb = ikb(
         {
-            "Help": "bot_commands",
-            "My Master": "https://t.me/tg_godfather",
+            "⚙️Help⚙️": "bot_commands",
+            "💸My Master💸": "https://t.me/tg_godfather",
             "Add Me To Your Group": f"https://t.me/{BOT_USERNAME}?startgroup=new",
-            "Support Chat (SpamReporter)": "https://t.me/Spamreporterr",
+            "🚔Support Chat🚔": "https://t.me/Spamreporterr",
         }
     )
     mention = message.from_user.mention
     await message.reply_photo(
         "https://telegra.ph/file/bdc531c4572ea823c63c2.jpg",
-        caption=f"Hi {mention}, I'm @SpamReporter Robot,"
+        caption=f"Hi {mention}, I'm @SpamReporter 🤖 Robot,"
         + " Choose An Option From Below.",
         reply_markup=kb,
     )
@@ -83,7 +83,7 @@ async def help_parser(name, keyboard=None):
             paginate_modules(0, HELPABLE, "help")
         )
     return (
-        f"Hello {name}, I'm @SpamReporter Robot, I can protect "
+        f"Hello {name}, I'm @SpamReporter 🤖 Robot, I can protect "
         + "your group from Spam and NSFW media using "
         + "machine learning. Choose an option from below.",
         keyboard,
