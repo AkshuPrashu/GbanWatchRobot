@@ -6,7 +6,7 @@
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/TheHamkerCat/)
 
 
-<img src="https://hamker.me/logo_3.png" width="300" align="right">
+<img src="https://telegra.ph/file/bdc531c4572ea823c63c2.jpg" width="300" align="right">
 
 
 ## Requirements
